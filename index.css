@@ -25,6 +25,7 @@ body {
     display: flex;
     justify-content: center;
     justify-content: space-between;
+    align-items: center;
 }
 
 .search input {
@@ -117,11 +118,13 @@ body {
     }
 
     .search input {
-        margin-right: 0; /* No margin between input and button */
+        margin-right: 10px; /* No margin between input and button */
         margin-bottom: 10px; /* Added margin between search input and button */
     }
 
     .searchbutton {
-        width: 40px;
+        width: 60px;
     }
+
+    
 }
