@@ -3,7 +3,8 @@
     padding: 0;
     font-family: 'Popins', sans-serif;
     box-sizing: border-box;
-}
+
+}  
 
 body {
     background-color: #222; 
@@ -25,7 +26,6 @@ body {
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    align-items: center;
 }
 
 .search input {
@@ -52,7 +52,7 @@ body {
 }
 
 .search button img {
-    width: 16px;
+    width: 20px;
 }
 
 .weather-icon {
@@ -118,12 +118,16 @@ body {
     }
 
     .search input {
-        margin-right: 10px; /* No margin between input and button */
-        margin-bottom: 10px; /* Added margin between search input and button */
+        margin-right: 10px;
+        width: 200px;
+        font-size: 17px; 
     }
 
     .searchbutton {
-        width: 60px;
+        /* width: 100px;
+        height: 100px; */
+        border-radius: 50%;
+
     }
 
     
