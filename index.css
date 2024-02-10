@@ -105,3 +105,18 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@media screen and (max-width: 768px) {
+    .card {
+        padding: 40px 20px; /* Adjusted padding */
+    }
+
+    .search {
+        flex-direction: column; /* Changed to column layout */
+    }
+
+    .search input {
+        margin-right: 0; /* No margin between input and button */
+        margin-bottom: 10px; /* Added margin between search input and button */
+    }
+}
